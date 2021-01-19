@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:blue
+}
+
+img{
+    width: 100%;
+}
+.btn:hover{
+    cursor: pointer;
+}
+table,tr,td,th{
+    border:1px solid #ddd;
+    border-collapse: collapse;
+    font-size:12px;
+}
+th{
+    height:47px;
+}
+td{
+    height:80px;
+}
